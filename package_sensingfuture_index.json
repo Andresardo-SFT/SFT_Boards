@@ -1,0 +1,49 @@
+{
+  "packages": [
+    {
+      "name": "sensingfuture",
+      "maintainer": "Andre Sardo",
+      "websiteURL": "http://www.sensingfuture.com",
+      "platforms": [
+        {
+          "name": "Sensing Future Boards",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/Andresardo-SFT/SFT_Boards/raw/main/SensingFuture-1.0.0.zip",
+          "archiveFileName": "SensingFuture-1.0.0.zip",
+          "checksum": "SHA-256:c88caf9e0732c90d98ae4cc1c1c815638d0b53a546d8a39fc62ec3c9840d5804",
+          "size": "4068333",
+          "boards": [
+            {
+              "name": "basic"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
